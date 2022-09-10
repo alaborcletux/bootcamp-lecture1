@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css">  -->
+
+    <style>
+        body {
+            background-color: black;
+        }
+
+        #container {
+            margin: 50px auto;
+            background-color: white;
+            width: 20%;
+            color: white;
+        }
+
+        #welcome {
+            font-size: 30px;
+            padding: 20px;
+            text-align: center;
+            color: black;
+        }
+
+        .inputform {
+            padding: 0px 20px;
+            margin: 10px;
+            color: black;
+        }
+
+        .forget-Password {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .form-inputs {
+            padding-top: 6px;
+        }
+
+        .form-inputs input {
+            padding: 5px 30px;
+            border: solid 1px rgb(189, 185, 185);
+        }
+
+        .form-inputs label {
+            text-align: left;
+        }
+
+
+        .forget-Password a {
+            text-decoration: none;
+            text-align: left;
+        }
+
+        .Button1 {
+            display: flex;
+            justify-content: center;
+        }
+
+        button {
+            padding: 5px 43%;
+            background-image: linear-gradient(to bottom right, #87CDE3, #7A3DE3);
+            text-transform: uppercase;
+            color: white;
+
+        }
+
+        .member {
+            padding: 20px 0%;
+            text-align: center;
+        }
+
+        .member span {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .member a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div row-1>
+            <div id="welcome">Login Form</div>
+        </div>
+        <div class="inputform">
+            <form action="">
+                <div class="form-inputs">
+                    <label for="Email">Email or Phone</label><br>
+                    <input type="text" name="Email">
+                </div>
+
+                <div class="form-inputs">
+                    <label for="Password">Password</label><br>
+                    <input type="password" name="Password">
+                </div>
+
+                <div class="forget-Password">
+                    <a href="">Forget Password</a>
+                </div>
+
+                <div class="Button1">
+                    <button>Login</button>
+                </div>
+
+                <div class="member">
+                    <span>Not a member?</span>
+                    <a href="">Signup Now</a>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>
